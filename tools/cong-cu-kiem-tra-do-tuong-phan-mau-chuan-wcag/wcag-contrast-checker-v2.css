@@ -1,0 +1,69 @@
+/* WCAG Contrast Checker v2 — giữ bản sắc soft-brutalism bản cũ (viền đen, bóng cứng, vàng nhạt / đào / bạc hà), wrapper phủ tint vàng nhạt, không còn banner tiêu đề */
+.wc2-soft-wrapper { overflow-x: clip; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; max-width: 920px; margin: 20px auto; border: 3px solid #111111; border-radius: 16px; box-shadow: 6px 6px 0px #111111; padding: 22px; background: #fff8d6; color: #111111; box-sizing: border-box; font-size: 16px; }
+.wc2-soft-wrapper * { min-width: 0; box-sizing: border-box; }
+/* hidden phải thắng mọi display của author (grid/flex), nếu không badge cũ vẫn hiện khi nhập lỗi */
+.wc2-soft-wrapper [hidden] { display: none !important; }
+.wc2-soft-wrapper input, .wc2-soft-wrapper select, .wc2-soft-wrapper textarea { font-size: 16px !important; max-width: 100%; }
+
+.wc2-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 20px; margin-bottom: 20px; }
+.wc2-card { background: #ffffff; border: 2.5px solid #111111; border-radius: 12px; box-shadow: 4px 4px 0px #111111; padding: 20px; }
+.wc2-form-card { background: #f4f4f4; }
+
+.wc2-label { display: block; font-weight: 800; margin-bottom: 10px; font-size: 15px; color: #1e293b; }
+.wc2-color-row { display: flex; gap: 10px; align-items: center; }
+.wc2-soft-wrapper .wc2-color-row input[type="color"] { width: 60px; height: 50px; padding: 0; border: 3px solid #111111; border-radius: 8px; cursor: pointer; background: none; box-shadow: 2px 2px 0px #111111; flex: none; }
+.wc2-soft-wrapper .wc2-color-row input[type="text"] { flex: 1; height: 50px; padding: 12px 14px; font-size: 17px !important; font-weight: 700; font-family: 'Courier New', monospace; border: 3px solid #111111; border-radius: 8px; outline: none; box-shadow: 2px 2px 0px #111111; text-transform: uppercase; }
+.wc2-soft-wrapper .wc2-color-row input[type="text"]:focus { background-color: #e6f7ff; }
+
+.wc2-swap-wrap { text-align: center; margin: 16px 0; }
+.wc2-btn { cursor: pointer; font-weight: 800; font-size: 15px; padding: 0 20px; height: 48px; border: 3px solid #111111; border-radius: 20px; box-shadow: 3px 3px 0px #111111; transition: transform 0.1s, box-shadow 0.1s; background: #ffdac1; color: #111111; }
+.wc2-btn:active { transform: translate(3px, 3px); box-shadow: 0px 0px 0px #111111; }
+.wc2-btn-primary { background: #b5ead7; border-radius: 12px; }
+.wc2-btn-copy { background: #ffffff; border-radius: 12px; margin-top: 14px; }
+
+.wc2-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.wc2-chip { cursor: pointer; font-size: 14px; font-weight: 700; padding: 8px 12px; border: 2px solid #111111; border-radius: 20px; box-shadow: 2px 2px 0px #111111; background: #ffffff; color: #111111; }
+.wc2-chip:active { transform: translate(2px, 2px); box-shadow: 0px 0px 0px #111111; }
+.wc2-hint { font-size: 14px; line-height: 1.55; color: #475569; margin: 14px 0 0 0; }
+
+.wc2-preview-box { border: 3px solid #111111; border-radius: 8px; padding: 24px; background-color: #fdfd96; color: #111111; box-shadow: 4px 4px 0px #111111; display: flex; flex-direction: column; gap: 14px; margin-bottom: 16px; }
+.wc2-preview-large { font-size: 28px; font-weight: 900; line-height: 1.2; }
+.wc2-preview-normal { font-size: 16px; font-weight: 400; line-height: 1.6; }
+.wc2-error { font-size: 15px; font-weight: 700; color: #b91c1c; background: #fee2e2; border: 2px solid #b91c1c; border-radius: 8px; padding: 12px 14px; margin: 0 0 16px 0; }
+
+.wc2-ratio-box { background-color: #111111; color: #ffffff; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 4px 4px 0px #111111; border: 3px solid #111111; }
+.wc2-ratio-title { font-weight: 800; font-size: 16px; color: #cccccc; letter-spacing: 1px; }
+.wc2-ratio-value { font-weight: 900; font-size: 36px; margin: 6px 0; color: #b5ead7; }
+.wc2-verdict { font-size: 15px; font-weight: 700; line-height: 1.5; margin: 0; }
+.wc2-lum { font-size: 14px; color: #999999; margin: 8px 0 0 0; }
+
+.wc2-fix { background: #fff8d6; border: 2.5px solid #111111; border-radius: 8px; box-shadow: 3px 3px 0px #111111; padding: 14px 16px; margin-top: 16px; }
+.wc2-fix-text { font-size: 15px; line-height: 1.55; margin: 0 0 12px 0; }
+.wc2-fix-note { font-size: 15px; line-height: 1.55; margin: 12px 0 0 0; font-weight: 700; }
+
+.wc2-results-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+.wc2-badge-card { border: 2.5px solid #111111; border-radius: 12px; padding: 18px 20px; background-color: #ffffff; box-shadow: 4px 4px 0px #111111; }
+.wc2-badge-title { margin: 0 0 4px 0; font-size: 18px; font-weight: 900; }
+.wc2-badge-sub { color: #475569; font-size: 14px; display: block; margin: 0 0 14px 0; padding-bottom: 10px; border-bottom: 2px dashed #dddddd; }
+.wc2-score-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; gap: 8px; }
+.wc2-score-row:last-child { margin-bottom: 0; }
+.wc2-level { font-size: 15px; font-weight: 600; }
+.wc2-note-text { font-size: 14px; color: #475569; }
+.wc2-badge { padding: 6px 12px; font-weight: 900; font-size: 15px; border: 2px solid #111111; border-radius: 6px; box-shadow: 2px 2px 0px #111111; color: #ffffff; white-space: nowrap; }
+.wc2-badge-pass { background-color: #5fb376; }
+.wc2-badge-fail { background-color: #e05a47; }
+
+.wc2-details { background: #ffffff; border: 2.5px solid #111111; border-radius: 12px; box-shadow: 4px 4px 0px #111111; padding: 18px 20px; }
+.wc2-summary { font-size: 16px; font-weight: 800; cursor: pointer; }
+.wc2-details-body p { font-size: 15px; line-height: 1.6; color: #1e293b; margin: 12px 0 0 0; }
+
+@media (max-width: 850px) {
+    .wc2-grid { grid-template-columns: 1fr; }
+    .wc2-results-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+    .wc2-soft-wrapper { padding: 16px; }
+    .wc2-soft-wrapper .wc2-color-row input[type="text"] { font-size: 16px !important; }
+    .wc2-ratio-value { font-size: 30px; }
+    .wc2-preview-large { font-size: 24px; }
+}
