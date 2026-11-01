@@ -1,0 +1,35 @@
+.p2t-soft-wrapper{--p2t-border:#1e293b;max-width:900px;margin:0 auto;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1e293b;box-sizing:border-box}
+.p2t-soft-wrapper *{box-sizing:border-box}
+.p2t-card{background:#fff;border:2.5px solid var(--p2t-border);border-radius:20px;padding:20px;box-shadow:4px 4px 0 var(--p2t-border);margin-bottom:16px}
+.p2t-card-title{margin:0 0 12px;font-size:18px;font-weight:900}
+.p2t-lib-error{background:#fef2f2;border:2.5px solid #dc2626;color:#991b1b;border-radius:14px;padding:12px 15px;font-weight:700;margin-bottom:14px}
+.p2t-drop{display:flex;flex-direction:column;align-items:center;gap:5px;border:3px dashed #fb923c;background:#fff7ed;border-radius:18px;padding:28px 18px;cursor:pointer;text-align:center}
+.p2t-drop.p2t-over{background:#ffedd5;border-color:#ea580c}
+.p2t-drop-icon{font-size:40px}
+.p2t-drop-text{font-weight:900;font-size:17px}
+.p2t-drop-sub{font-size:13px;color:#64748b;font-weight:600}
+.p2t-file-hidden{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}
+.p2t-fileinfo{font-weight:700;font-size:14.5px;margin:13px 0 0}
+.p2t-check{display:flex;gap:9px;align-items:center;font-weight:700;font-size:14.5px;margin-top:15px;cursor:pointer}
+.p2t-check input{width:19px;height:19px;accent-color:#ea580c}
+.p2t-error{color:#dc2626;font-weight:800;font-size:14px;min-height:19px;margin:9px 0 0}
+.p2t-btn{border:2.5px solid var(--p2t-border);border-radius:14px;padding:12px 22px;font-size:16px;font-weight:900;cursor:pointer;box-shadow:3px 3px 0 var(--p2t-border);text-decoration:none;display:inline-block;color:#1e293b}
+.p2t-btn:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--p2t-border)}
+.p2t-btn:disabled{opacity:.45;cursor:default}
+.p2t-btn-main{background:#fdba74}
+.p2t-btn-soft{background:#fef9c3}
+.p2t-status{font-weight:700;font-size:14px;color:#b45309;min-height:20px;margin:10px 0 0}
+.p2t-verdict{background:linear-gradient(135deg,#f0fdf4,#dcfce7);border:2.5px solid var(--p2t-border);border-radius:16px;padding:13px 15px;font-weight:800;font-size:15.5px;line-height:1.55;box-shadow:3px 3px 0 var(--p2t-border);margin:0 0 14px}
+.p2t-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.p2t-stat{background:#fffbeb;border:2px solid var(--p2t-border);border-radius:14px;padding:10px 12px;box-shadow:3px 3px 0 var(--p2t-border)}
+.p2t-stat-cap{display:block;font-size:12.5px;font-weight:800;color:#64748b}
+.p2t-stat-val{display:block;font-size:18px;font-weight:900;font-variant-numeric:tabular-nums;margin-top:2px}
+.p2t-text{width:100%;border:2px solid var(--p2t-border);border-radius:14px;padding:13px 15px;font-size:14.5px;line-height:1.6;font-family:ui-monospace,Menlo,Consolas,monospace;background:#fffef5;resize:vertical}
+.p2t-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:13px}
+.p2t-note{font-size:13.5px;color:#92400e;background:#fffbeb;border:2px dashed #f59e0b;border-radius:12px;padding:10px 13px;line-height:1.55;margin:13px 0 0;font-weight:600}
+@media (max-width:700px){.p2t-stats{grid-template-columns:1fr}}
+
+/* — Mobile guard 2026-10-24: chống tràn ngang (grid/flex blowout) và chống zoom khi chạm ô nhập — */
+.p2t-soft-wrapper{overflow-x:clip}
+.p2t-soft-wrapper *{min-width:0}
+.p2t-soft-wrapper input,.p2t-soft-wrapper select,.p2t-soft-wrapper textarea{font-size:16px !important;max-width:100%}
