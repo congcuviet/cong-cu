@@ -1,0 +1,41 @@
+.cpd-soft-wrapper{--cpd-border:#1e293b;max-width:900px;margin:0 auto;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1e293b;box-sizing:border-box}
+.cpd-soft-wrapper *{box-sizing:border-box}
+.cpd-card{background:#fff;border:2.5px solid var(--cpd-border);border-radius:20px;padding:20px;box-shadow:4px 4px 0 var(--cpd-border);margin-bottom:16px}
+.cpd-card-title{margin:0 0 12px;font-size:18px;font-weight:900}
+.cpd-lib-error{background:#fef2f2;border:2.5px solid #dc2626;color:#991b1b;border-radius:14px;padding:12px 15px;font-weight:700;margin-bottom:14px}
+.cpd-drop{display:flex;flex-direction:column;align-items:center;gap:5px;border:3px dashed #fb923c;background:#fff7ed;border-radius:18px;padding:28px 18px;cursor:pointer;text-align:center}
+.cpd-drop.cpd-over{background:#ffedd5;border-color:#ea580c}
+.cpd-drop-icon{font-size:40px}
+.cpd-drop-text{font-weight:900;font-size:17px}
+.cpd-drop-sub{font-size:13px;color:#64748b;font-weight:600}
+.cpd-file-hidden{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}
+.cpd-fileinfo{font-weight:700;font-size:14.5px;margin:13px 0 0}
+.cpd-label{display:block;font-weight:800;font-size:14px;margin:15px 0 6px}
+.cpd-mode-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.cpd-mode{border:2.5px solid var(--cpd-border);background:#fef9c3;border-radius:14px;padding:12px 14px;font-weight:900;font-size:15px;cursor:pointer;box-shadow:2px 2px 0 var(--cpd-border);text-align:left;line-height:1.4}
+.cpd-mode.cpd-picked{background:#fdba74}
+.cpd-mode-sub{display:block;font-weight:600;font-size:12.5px;color:#475569;margin-top:4px;line-height:1.45}
+.cpd-inp{width:100%;border:2px solid var(--cpd-border);border-radius:12px;padding:10px 12px;font-size:15.5px;font-weight:700;background:#fffef5}
+.cpd-error{color:#dc2626;font-weight:800;font-size:14px;min-height:19px;margin:9px 0 0}
+.cpd-btn{border:2.5px solid var(--cpd-border);border-radius:14px;padding:12px 22px;font-size:16px;font-weight:900;cursor:pointer;box-shadow:3px 3px 0 var(--cpd-border);text-decoration:none;display:inline-block;color:#1e293b;background:#fff}
+.cpd-btn:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--cpd-border)}
+.cpd-btn:disabled{opacity:.45;cursor:default}
+.cpd-btn-main{background:#fdba74}
+.cpd-status{font-weight:700;font-size:14px;color:#b45309;min-height:20px;margin:10px 0 0}
+.cpd-verdict{background:linear-gradient(135deg,#f0fdf4,#dcfce7);border:2.5px solid var(--cpd-border);border-radius:16px;padding:13px 15px;font-weight:800;font-size:15.5px;line-height:1.55;box-shadow:3px 3px 0 var(--cpd-border);margin:0 0 14px}
+.cpd-verdict.cpd-warn{background:linear-gradient(135deg,#fffbeb,#fef3c7)}
+.cpd-compare{margin-bottom:8px}
+.cpd-bar-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.cpd-bar-cap{font-weight:800;font-size:13.5px;min-width:62px}
+.cpd-bar{flex:1;background:#f1f5f9;border:2px solid var(--cpd-border);border-radius:999px;height:18px;overflow:hidden}
+.cpd-fill{height:100%}
+.cpd-fill-old{background:#94a3b8;width:100%}
+.cpd-fill-new{background:linear-gradient(90deg,#86efac,#22c55e)}
+.cpd-bar-val{font-weight:900;font-variant-numeric:tabular-nums;min-width:86px;text-align:right;font-size:14px}
+.cpd-saved{font-weight:900;font-size:16px;margin:8px 0 14px}
+@media (max-width:700px){.cpd-mode-row{grid-template-columns:1fr}}
+
+/* — Mobile guard 2026-10-24: chống tràn ngang (grid/flex blowout) và chống zoom khi chạm ô nhập — */
+.cpd-soft-wrapper{overflow-x:clip}
+.cpd-soft-wrapper *{min-width:0}
+.cpd-soft-wrapper input,.cpd-soft-wrapper select,.cpd-soft-wrapper textarea{font-size:16px !important;max-width:100%}
