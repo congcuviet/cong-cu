@@ -91,6 +91,16 @@ Mỗi công cụ nằm trong một thư mục riêng tại `tools/<slug>/`, gồ
 | Công cụ đổ xúc xắc trực tuyến (Dice Roller) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-do-xuc-xac-truc-tuyen-dice-roller/) |
 | Công cụ gỡ bỏ các thẻ HTML khỏi đoạn văn bản | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-go-bo-cac-the-html-khoi-doan-van-ban/) |
 | Công cụ gộp file PDF – Merge PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-gop-file-pdf-merge-pdf/) |
+| Công cụ kiểm tra độ tương phản màu chuẩn WCAG | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-kiem-tra-do-tuong-phan-mau-chuan-wcag/) |
+| Công cụ kiểm tra mã trạng thái HTTP (HTTP Status Checker) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-kiem-tra-ma-trang-thai-http-http-status-checker/) |
+| Công cụ lập ngân sách chi tiêu cá nhân | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-lap-ngan-sach-chi-tieu-ca-nhan/) |
+| Công cụ mã hóa/giải mã Base64 (Base64 Encode/Decode) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-ma-hoa-giai-ma-base64-base64-encode-decode/) |
+| Công cụ nén file PDF – Compress PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-nen-file-pdf-compress-pdf/) |
+| Công cụ làm phẳng PDF – PDF Flatten Tool | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-pdf-flatten-tool/) |
+| Công cụ PDF sang văn bản – PDF to Text Extractor | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-pdf-sang-van-ban-pdf-to-text-extractor/) |
+| Công cụ đặt mật khẩu cho PDF – Protect PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-protect-pdf/) |
+| Công cụ tách file PDF – Split PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-tach-file-pdf-split-pdf/) |
+| Công cụ thêm số trang vào file PDF – Add Page Numbers to PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-them-so-trang-vao-file-pdf-add-page-numbers-to-pdf/) |
 Danh sách sẽ tiếp tục được bổ sung theo từng đợt.
 
 ## Theo dõi Công Cụ Việt
