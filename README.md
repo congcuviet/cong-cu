@@ -79,7 +79,7 @@ Mỗi công cụ nằm trong một thư mục riêng tại `tools/<slug>/`, gồ
 | Công cụ chia nhóm/chia đội ngẫu nhiên | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chia-nhom-chia-doi-ngau-nhien/) |
 | Công cụ chuyển đổi chữ hoa/chữ thường (Case Converter) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-chu-hoa-chu-thuong-case-converter/) |
 | Công cụ chuyển đổi định dạng JSON sang CSV/XML | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-dinh-dang-json-sang-csv-xml/) |
-| Công cụ chuyển đổi đơn vị đo lường (Unit Converter) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-don-vi-do-luong-unit-converter/) |
+| Công cụ chuyển đổi đơn vị đo lường (Unit Converter) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuye-doi-don-vi-do-luong-unit-converter/) |
 | Công cụ chuyển đổi mã màu (HEX, RGB, HSL, CMYK) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-ma-mau-hex-rgb-hsl-cmyk/) |
 | Công cụ chuyển đổi phần trăm sang ppm – Percent to PPM Converter | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-phan-tram-sang-ppm-percent-to-ppm-converter/) |
 | Công cụ chuyển JPG sang PDF – JPG to PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-jpg-sang-pdf-jpg-to-pdf/) |
@@ -101,6 +101,16 @@ Mỗi công cụ nằm trong một thư mục riêng tại `tools/<slug>/`, gồ
 | Công cụ đặt mật khẩu cho PDF – Protect PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-protect-pdf/) |
 | Công cụ tách file PDF – Split PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-tach-file-pdf-split-pdf/) |
 | Công cụ thêm số trang vào file PDF – Add Page Numbers to PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-them-so-trang-vao-file-pdf-add-page-numbers-to-pdf/) |
+| Công cụ tính bảo hiểm xã hội (BHXH) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-tinh-bao-hiem-xa-hoi-bhxh/) |
+| Công cụ tính chỉ số khối cơ thể (BMI Calculator) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-tinh-chi-so-khoi-co-the-bmi-calculator/) |
+| Công cụ tính định luật Ohm (Ohm's Law Calculator) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-tinh-dinh-luat-ohm-ohms-law-calculator/) |
+| Công cụ tính khối lượng Mol (Molar Mass) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-tinh-khoi-luong-mol-molar-mass/) |
+| Công cụ tính lượng calo tiêu thụ hàng ngày (TDEE) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-tinh-luong-calo-tieu-thu-hang-ngay-tdee/) |
+| Công cụ tính lương Gross sang Net | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-tinh-luong-gross-sang-net/) |
+| Công cụ tính toán khoản vay và trả góp (Loan/EMI Calculator) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-tinh-toan-khoan-vay-va-tra-gop-loan-emi-calculator/) |
+| Công cụ trích xuất trang PDF – PDF Page Extractor | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-trich-xuat-trang-pdf-pdf-page-extractor/) |
+| Công cụ gỡ mật khẩu PDF – Unlock PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-unlock-pdf-unlock-pdf-owner-password-removal/) |
+| Công cụ URL Encode và Decode | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-url-encode-va-decode/) |
 Danh sách sẽ tiếp tục được bổ sung theo từng đợt.
 
 ## Theo dõi Công Cụ Việt
