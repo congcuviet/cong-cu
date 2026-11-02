@@ -1,0 +1,29 @@
+.oh2-wrap{overflow-x:clip;max-width:920px;margin:0 auto;font-family:system-ui,-apple-system,sans-serif;color:#0f172a}
+.oh2-wrap *{min-width:0;box-sizing:border-box}
+.oh2-wrap input,.oh2-wrap select,.oh2-wrap textarea{font-size:16px !important;max-width:100%}
+.oh2-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.oh2-chip{border:2px solid #0f172a;border-radius:999px;padding:8px 14px;font-weight:800;font-size:14px;cursor:pointer;background:#f1f5f9}
+.oh2-chip.oh2-active{background:#0f172a;color:#fde047}
+.oh2-chip-soft{background:#fff}
+.oh2-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.oh2-label{display:block;font-weight:800;font-size:14px;margin:0 0 6px;text-transform:uppercase}
+.oh2-input{width:100%;border:2px solid #0f172a;border-radius:8px;padding:10px}
+.oh2-inunit{display:flex;gap:8px}
+.oh2-inunit .oh2-input{flex:1}
+.oh2-select{border:2px solid #0f172a;border-radius:8px;padding:10px;background:#fff;font-weight:700}
+.oh2-hint{font-size:13px;color:#475569;line-height:1.5;margin:6px 0 0}
+.oh2-count{font-size:14px;font-weight:700;margin:14px 0 0}
+.oh2-error{background:#fef2f2;border:2px solid #dc2626;color:#991b1b;border-radius:8px;padding:10px;margin-top:14px;font-weight:600;font-size:14px}
+.oh2-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.oh2-card{border:2px solid #0f172a;border-radius:12px;padding:12px;box-shadow:3px 3px 0 #0f172a;background:#fff}
+.oh2-card.oh2-calc{background:#fef3c7}
+.oh2-card-title{font-weight:800;font-size:14px}
+.oh2-value{font-weight:900;font-size:24px;margin:6px 0}
+.oh2-sub{font-size:13px;color:#475569}
+.oh2-actions{display:flex;gap:8px;margin-top:16px}
+.oh2-btn{border:2px solid #0f172a;border-radius:8px;font-weight:800;cursor:pointer;padding:8px 14px;font-size:14px;background:#fff;box-shadow:2px 2px 0 #0f172a}
+.oh2-btn:active{transform:translate(2px,2px);box-shadow:0 0 0 #0f172a}
+.oh2-adv{margin-top:16px;border-top:1px dashed #cbd5e1;padding-top:8px}
+.oh2-adv summary{font-weight:800;cursor:pointer;font-size:14px}
+.oh2-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#0f172a;color:#fff;padding:10px 16px;border-radius:8px;font-weight:700;z-index:9999}
+@media (max-width:600px){.oh2-row{grid-template-columns:1fr}.oh2-cards{grid-template-columns:1fr}}
