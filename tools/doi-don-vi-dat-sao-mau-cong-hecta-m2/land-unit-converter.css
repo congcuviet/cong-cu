@@ -1,0 +1,121 @@
+.luc-soft-wrapper {
+  --luc-border: #20301f;
+  --luc-shadow: 4px 4px 0 rgba(32, 48, 31, .9);
+  --luc-green: #2f9e44;
+  --luc-green-soft: #e3f6e8;
+  --luc-cream: #f7fbf3;
+  --luc-ink: #22301f;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--luc-ink);
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.luc-soft-wrapper * { box-sizing: border-box; }
+.luc-card {
+  background: #fff;
+  border: 2px solid var(--luc-border);
+  border-radius: 20px;
+  box-shadow: var(--luc-shadow);
+  padding: 22px;
+}
+.luc-label { display: block; font-weight: 800; font-size: 15.5px; margin-bottom: 10px; }
+.luc-inline { display: flex; gap: 10px; flex-wrap: wrap; }
+.luc-input {
+  padding: 12px 14px;
+  font-size: 17px;
+  border: 2px solid var(--luc-border);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--luc-ink);
+  font-family: inherit;
+}
+#luc-inp-value { flex: 1 1 160px; font-weight: 700; font-variant-numeric: tabular-nums; }
+#luc-sel-unit { flex: 2 1 280px; }
+.luc-chips { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 14px; }
+.luc-chips-label { font-weight: 700; font-size: 13.5px; opacity: .75; }
+.luc-chip-btn {
+  padding: 7px 13px;
+  font-size: 13.5px;
+  font-weight: 800;
+  border: 2px solid var(--luc-border);
+  border-radius: 999px;
+  background: var(--luc-green-soft);
+  color: var(--luc-ink);
+  cursor: pointer;
+  box-shadow: 2px 2px 0 rgba(32, 48, 31, .9);
+}
+.luc-chip-btn:active { transform: translate(1px, 1px); box-shadow: 1px 1px 0 rgba(32, 48, 31, .9); }
+.luc-verdict {
+  margin: 18px 0 0;
+  padding: 16px 18px;
+  background: var(--luc-green-soft);
+  border: 2px solid var(--luc-border);
+  border-radius: 16px;
+  font-size: 18px;
+  line-height: 1.55;
+  font-variant-numeric: tabular-nums;
+}
+.luc-note {
+  margin: 12px 0 0;
+  padding: 12px 14px;
+  background: #fff4d6;
+  border: 2px solid #b8860b;
+  border-radius: 12px;
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+.luc-results { display: flex; flex-direction: column; gap: 16px; margin-top: 18px; }
+.luc-group-title {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  opacity: .7;
+}
+.luc-group-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+.luc-chip {
+  border: 2px solid var(--luc-border);
+  border-radius: 14px;
+  padding: 10px 12px;
+  background: var(--luc-cream);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.luc-chip-label { font-size: 12.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .3px; opacity: .75; }
+.luc-chip-value { font-size: 17px; font-weight: 800; font-variant-numeric: tabular-nums; }
+
+.luc-accordion {
+  border: 2px solid var(--luc-border);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: var(--luc-shadow);
+  padding: 4px 22px;
+}
+.luc-accordion summary { cursor: pointer; font-weight: 800; font-size: 15.5px; padding: 12px 0; }
+.luc-acc-body { padding-bottom: 14px; line-height: 1.65; font-size: 15px; }
+.luc-acc-body p { margin: 0 0 10px; }
+.luc-table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 14.5px; }
+.luc-table th, .luc-table td { border: 1.5px solid #c9d6c3; padding: 8px 10px; text-align: left; }
+.luc-table th { background: var(--luc-green-soft); font-weight: 800; }
+.luc-table td { font-variant-numeric: tabular-nums; }
+
+@media (max-width: 640px) {
+  .luc-card { padding: 16px; }
+  .luc-verdict { font-size: 16px; }
+  .luc-table { font-size: 13px; }
+  .luc-table th, .luc-table td { padding: 6px 7px; }
+}
+
+/* — Mobile guard 2026-10-24: chống tràn ngang (grid/flex blowout) và chống zoom khi chạm ô nhập — */
+.luc-soft-wrapper{overflow-x:clip}
+.luc-soft-wrapper *{min-width:0}
+.luc-soft-wrapper input,.luc-soft-wrapper select,.luc-soft-wrapper textarea{font-size:16px !important;max-width:100%}
