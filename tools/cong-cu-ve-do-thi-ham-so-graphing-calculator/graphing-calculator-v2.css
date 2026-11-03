@@ -1,0 +1,66 @@
+/* RE-SKIN 2026-10-31 theo chuẩn cứng mục 9: giữ bản sắc tool gốc (coral #e05a47 — cũng là màu nét vẽ mặc định + pastel), form/khung đồ thị/kết quả là từng thẻ riêng, cỡ chữ desktop lớn. */
+.gr2-soft-wrapper{--gr2-ink:#0f172a;--gr2-muted:#475569;--gr2-primary:#e05a47;--gr2-primary-dark:#a93424;--gr2-tint:#ffe6e6;--gr2-butter:#fef08a;max-width:920px;margin:0 auto;padding:22px;background:#fff3ee;border:3px solid var(--gr2-ink);border-radius:16px;box-shadow:8px 8px 0 var(--gr2-ink);color:var(--gr2-ink);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;overflow-x:clip;box-sizing:border-box}
+.gr2-soft-wrapper *{box-sizing:border-box;min-width:0}
+.gr2-soft-wrapper input,.gr2-soft-wrapper select,.gr2-soft-wrapper textarea{font-size:16px !important;max-width:100%}
+.gr2-form{background:#fff;border:2.5px solid var(--gr2-ink);border-radius:12px;box-shadow:5px 5px 0 var(--gr2-ink);padding:20px;margin-bottom:18px}
+.gr2-soft-wrapper .gr2-label{display:block;font-weight:800;font-size:16px;margin-bottom:8px;color:#1e293b}
+.gr2-fnrow{display:flex;gap:0;align-items:stretch;margin-bottom:12px}
+.gr2-prefix{display:flex;align-items:center;padding:0 14px;font-weight:900;font-size:17px;background:var(--gr2-primary);color:#fff;border:2.5px solid var(--gr2-ink);border-right:none;border-radius:10px 0 0 10px;white-space:nowrap}
+.gr2-soft-wrapper .gr2-input{flex:1;width:100%;height:52px;padding:12px;font-size:17px !important;font-weight:600;font-family:'Courier New',monospace;border:2.5px solid var(--gr2-ink);border-radius:10px;background:#fff;color:#0f172a;outline:none}
+.gr2-input:focus{border-color:var(--gr2-primary);background:#fffaf5}
+.gr2-soft-wrapper .gr2-fninput{border-radius:0;font-size:18px !important;height:54px}
+.gr2-soft-wrapper .gr2-color{width:56px;height:54px;padding:3px;border:2.5px solid var(--gr2-ink);border-left:none;border-radius:0 10px 10px 0;background:#fff;cursor:pointer}
+.gr2-hex{display:flex;align-items:center;font-family:'Courier New',monospace;font-weight:900;font-size:15px;white-space:nowrap;margin-left:10px}
+.gr2-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.gr2-chip{cursor:pointer;padding:8px 13px;font-weight:700;font-size:14px;background:#fff;border:2px solid var(--gr2-ink);border-radius:999px;color:var(--gr2-ink);box-shadow:2px 2px 0 var(--gr2-ink)}
+.gr2-chip:nth-child(5n+1){background:#ffe6e6}
+.gr2-chip:nth-child(5n+2){background:#fef9c3}
+.gr2-chip:nth-child(5n+3){background:#e6f7ff}
+.gr2-chip:nth-child(5n+4){background:#dcfce7}
+.gr2-chip:nth-child(5n+5){background:#ffeedd}
+.gr2-chip:active{transform:translate(2px,2px);box-shadow:0 0 0 var(--gr2-ink)}
+.gr2-hint{margin:0 0 12px;font-size:14px;color:var(--gr2-muted);line-height:1.55}
+.gr2-grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px;margin-bottom:14px}
+.gr2-toolrow{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.gr2-seg{display:flex;gap:8px}
+.gr2-segbtn{height:48px;cursor:pointer;padding:0 18px;font-weight:800;font-size:15.5px;border:2.5px solid var(--gr2-ink);border-radius:10px;background:#fff;color:var(--gr2-ink);box-shadow:3px 3px 0 var(--gr2-ink)}
+.gr2-segbtn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--gr2-ink)}
+.gr2-segbtn.active{background:var(--gr2-primary);color:#fff;transform:translate(2px,2px);box-shadow:1px 1px 0 var(--gr2-ink)}
+.gr2-btn{height:48px;cursor:pointer;padding:0 18px;font-weight:800;font-size:15.5px;border:2.5px solid var(--gr2-ink);border-radius:10px;background:#fff;color:var(--gr2-ink);box-shadow:3px 3px 0 var(--gr2-ink)}
+.gr2-btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--gr2-ink)}
+.gr2-btn-primary{background:var(--gr2-primary);color:#fff}
+.gr2-error{padding:12px 14px;border-radius:10px;font-weight:700;font-size:15px;line-height:1.55;background:#fee2e2;border:2px dashed #dc2626;color:#991b1b;margin-bottom:14px}
+.gr2-error.hidden{display:none}
+.gr2-compiled{margin:0 0 12px;font-size:15px;color:var(--gr2-muted);font-family:'Courier New',monospace;word-break:break-all}
+.gr2-canvaswrap{border:2.5px solid var(--gr2-ink);border-radius:12px;box-shadow:5px 5px 0 var(--gr2-ink);overflow:hidden;background:#fff;margin-bottom:12px;touch-action:none}
+.gr2-canvas{display:block;width:100%;height:420px;cursor:crosshair}
+.gr2-trace{margin:0 0 14px;font-size:15.5px;font-weight:700;color:#334155;min-height:1.5em}
+.gr2-result{background:var(--gr2-tint);border:2.5px solid var(--gr2-ink);border-radius:12px;box-shadow:5px 5px 0 var(--gr2-ink);padding:18px 20px;margin-bottom:18px}
+.gr2-result.hidden{display:none}
+.gr2-points{margin:0;font-size:16px;line-height:1.6;color:var(--gr2-ink)}
+.gr2-adv{background:#fff;border:2.5px solid var(--gr2-ink);border-radius:12px;box-shadow:5px 5px 0 var(--gr2-ink);padding:18px 20px;margin-bottom:18px}
+.gr2-adv summary{cursor:pointer;font-weight:800;color:#1e293b;font-size:16px}
+.gr2-adv .gr2-hint{margin-top:10px;margin-bottom:8px}
+.gr2-adv .gr2-hint:last-child{margin-bottom:0}
+.gr2-export{background:#fff;border:2.5px solid var(--gr2-ink);border-radius:12px;box-shadow:5px 5px 0 var(--gr2-ink);padding:18px 20px;display:flex;flex-direction:column;gap:12px}
+.gr2-check{display:flex;align-items:center;gap:9px;font-weight:700;font-size:15.5px;color:#334155;cursor:pointer}
+.gr2-check input{width:19px;height:19px;accent-color:var(--gr2-primary);flex:0 0 auto}
+.gr2-actions{display:flex;flex-wrap:wrap;gap:10px}
+.gr2-toast{visibility:hidden;min-width:200px;background:#0f172a;color:#fff;text-align:center;border-radius:8px;padding:12px;position:fixed;z-index:9999;bottom:30px;left:50%;transform:translateX(-50%);font-weight:700;opacity:0;transition:opacity .3s,bottom .3s}
+.gr2-toast.show{visibility:visible;opacity:1;bottom:50px}
+@media (max-width:600px){
+  .gr2-soft-wrapper{padding:14px;box-shadow:5px 5px 0 var(--gr2-ink)}
+  .gr2-form{padding:16px}
+  .gr2-grid2{grid-template-columns:1fr}
+  .gr2-fnrow{flex-wrap:wrap}
+  .gr2-soft-wrapper .gr2-fninput{order:2;flex-basis:100%;border-radius:10px;border-left:2.5px solid var(--gr2-ink);font-size:16px !important;height:52px}
+  .gr2-soft-wrapper .gr2-input{font-size:16px !important;height:50px}
+  .gr2-prefix{border-radius:10px;border-right:2.5px solid var(--gr2-ink)}
+  .gr2-soft-wrapper .gr2-color{border-left:2.5px solid var(--gr2-ink);border-radius:10px;margin-left:8px}
+  .gr2-canvas{height:340px}
+  .gr2-result,.gr2-adv,.gr2-export{padding:16px}
+  .gr2-actions .gr2-btn{flex:1 1 calc(50% - 5px)}
+  .gr2-toolrow .gr2-btn{flex:1 1 calc(50% - 5px)}
+  .gr2-seg{flex:1 1 100%}
+  .gr2-segbtn{flex:1 1 0}
+}
