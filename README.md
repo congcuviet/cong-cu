@@ -79,7 +79,7 @@ Mỗi công cụ nằm trong một thư mục riêng tại `tools/<slug>/`, gồ
 | Công cụ chia nhóm/chia đội ngẫu nhiên | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chia-nhom-chia-doi-ngau-nhien/) |
 | Công cụ chuyển đổi chữ hoa/chữ thường (Case Converter) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-chu-hoa-chu-thuong-case-converter/) |
 | Công cụ chuyển đổi định dạng JSON sang CSV/XML | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-dinh-dang-json-sang-csv-xml/) |
-| Công cụ chuyển đổi đơn vị đo lường (Unit Converter) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuye-doi-don-vi-do-luong-unit-converter/) |
+| Công cụ chuyển đổi đơn vị đo lường (Unit Converter) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-don-vi-do-luong-unit-converter/) |
 | Công cụ chuyển đổi mã màu (HEX, RGB, HSL, CMYK) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-ma-mau-hex-rgb-hsl-cmyk/) |
 | Công cụ chuyển đổi phần trăm sang ppm – Percent to PPM Converter | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-doi-phan-tram-sang-ppm-percent-to-ppm-converter/) |
 | Công cụ chuyển JPG sang PDF – JPG to PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-chuyen-jpg-sang-pdf-jpg-to-pdf/) |
@@ -111,6 +111,17 @@ Mỗi công cụ nằm trong một thư mục riêng tại `tools/<slug>/`, gồ
 | Công cụ trích xuất trang PDF – PDF Page Extractor | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-trich-xuat-trang-pdf-pdf-page-extractor/) |
 | Công cụ gỡ mật khẩu PDF – Unlock PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-unlock-pdf-unlock-pdf-owner-password-removal/) |
 | Công cụ URL Encode và Decode | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-url-encode-va-decode/) |
+
+| Công cụ vẽ đồ thị hàm số (Graphing Calculator) | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-ve-do-thi-ham-so-graphing-calculator/) |
+| Công cụ xóa trang trong file PDF – Delete PDF Pages | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-xoa-trang-trong-file-pdf-delete-pdf-pages/) |
+| Công cụ xoay PDF – Rotate PDF | [Mở công cụ](https://congcuviet.com/cong-cu/cong-cu-xoay-pdf-rotate-pdf/) |
+| Đảo ngược âm thanh – Audio Reverser | [Mở công cụ](https://congcuviet.com/cong-cu/dao-nguoc-am-thanh-audio-reverser/) |
+| Đảo ngược Video – Video Reverser | [Mở công cụ](https://congcuviet.com/cong-cu/dao-nguoc-video-video-reverser/) |
+| Dãy Hoạt Động Kim Loại | [Mở công cụ](https://congcuviet.com/cong-cu/day-hoat-dong-kim-loai/) |
+| Đọc văn bản (TTS) – Text to Speech | [Mở công cụ](https://congcuviet.com/cong-cu/doc-van-ban-tts-text-to-speech/) |
+| Đổi đơn vị đất: sào, mẫu, công, hecta sang m² | [Mở công cụ](https://congcuviet.com/cong-cu/doi-don-vi-dat-sao-mau-cong-hecta-m2/) |
+| Đổi Dương lịch sang Âm lịch & Lịch vạn niên | [Mở công cụ](https://congcuviet.com/cong-cu/doi-duong-lich-sang-am-lich-lich-van-nien/) |
+| Đổi kích thước Video – Video Resizer | [Mở công cụ](https://congcuviet.com/cong-cu/doi-kich-thuoc-video-video-resizer/) |
 Danh sách sẽ tiếp tục được bổ sung theo từng đợt.
 
 ## Theo dõi Công Cụ Việt
