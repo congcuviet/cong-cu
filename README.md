@@ -122,6 +122,16 @@ Mỗi công cụ nằm trong một thư mục riêng tại `tools/<slug>/`, gồ
 | Đổi đơn vị đất: sào, mẫu, công, hecta sang m² | [Mở công cụ](https://congcuviet.com/cong-cu/doi-don-vi-dat-sao-mau-cong-hecta-m2/) |
 | Đổi Dương lịch sang Âm lịch & Lịch vạn niên | [Mở công cụ](https://congcuviet.com/cong-cu/doi-duong-lich-sang-am-lich-lich-van-nien/) |
 | Đổi kích thước Video – Video Resizer | [Mở công cụ](https://congcuviet.com/cong-cu/doi-kich-thuoc-video-video-resizer/) |
+| Công cụ đổi ngày sang số La Mã – Date to Roman Numerals Converter | [Mở công cụ](https://congcuviet.com/cong-cu/doi-ngay-sang-so-la-ma-date-to-roman-numerals/) |
+| Đổi số thành chữ tiếng Việt (đọc số tiền) | [Mở công cụ](https://congcuviet.com/cong-cu/doi-so-thanh-chu-tieng-viet/) |
+| Đổi tỷ lệ khung hình – Aspect Ratio Changer | [Mở công cụ](https://congcuviet.com/cong-cu/doi-ty-le-khung-hinh-aspect-ratio-changer/) |
+| Đồng bộ âm thanh Video – Audio Sync | [Mở công cụ](https://congcuviet.com/cong-cu/dong-bo-am-thanh-video-audio-sync/) |
+| Đóng dấu Video – Add Watermark to Video | [Mở công cụ](https://congcuviet.com/cong-cu/dong-dau-video-add-watermark-to-video/) |
+| Đồng Hồ Bấm Giờ | [Mở công cụ](https://congcuviet.com/cong-cu/dong-ho-bam-gio/) |
+| Đồng Hồ Báo Thức Online | [Mở công cụ](https://congcuviet.com/cong-cu/dong-ho-bao-thuc-online/) |
+| Đồng Hồ Đếm Ngược | [Mở công cụ](https://congcuviet.com/cong-cu/dong-ho-dem-nguoc/) |
+| Đồng Hồ Pomodoro Online | [Mở công cụ](https://congcuviet.com/cong-cu/dong-ho-pomodoro-online/) |
+| Dự Đoán Chiều Cao Trẻ Em Trưởng Thành – Child Height Predictor | [Mở công cụ](https://congcuviet.com/cong-cu/du-doan-chieu-cao-tre-em-truong-thanh-child-height-predictor/) |
 Danh sách sẽ tiếp tục được bổ sung theo từng đợt.
 
 ## Theo dõi Công Cụ Việt
