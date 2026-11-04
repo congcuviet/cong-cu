@@ -1,0 +1,46 @@
+.cd2-wrapper { max-width: 920px; margin: 0 auto; font-family: system-ui, -apple-system, sans-serif; color: #111827; background: #e8edfd; padding: 22px; border: 3px solid #111827; border-radius: 16px; box-shadow: 7px 7px 0 #111827; }
+.cd2-wrapper * { box-sizing: border-box; min-width: 0; }
+.cd2-wrapper [hidden] { display: none !important; }
+.cd2-wrapper input, .cd2-wrapper select, .cd2-wrapper textarea { font-size: 16px !important; max-width: 100%; }
+.cd2-card { background: #ffffff; border: 2.5px solid #111827; border-radius: 12px; box-shadow: 5px 5px 0 #111827; padding: 20px; }
+.cd2-form { display: flex; flex-direction: column; gap: 16px; }
+.cd2-group { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.cd2-label { font-weight: 800; font-size: 15px; color: #1e293b; }
+.cd2-wrapper .cd2-input { border: 2.5px solid #111827 !important; border-radius: 10px !important; box-shadow: 3px 3px 0 #111827; padding: 12px 14px !important; font-size: 17px !important; font-weight: 600; color: #0f172a; outline: none; width: 100%; background: #ffffff; }
+.cd2-wrapper .cd2-input:focus { background: #eef2ff; }
+.cd2-num { text-align: center; }
+.cd2-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.cd2-chip { flex: 1 1 calc(16.666% - 8px); min-width: 110px; padding: 10px 6px; font-size: 15px; font-weight: 800; color: #1e293b; background: #ffffff; border: 2px solid #111827; border-radius: 10px; box-shadow: 2px 2px 0 #111827; cursor: pointer; }
+.cd2-chip:active { box-shadow: 0 0 0 #111827; transform: translate(2px, 2px); }
+.cd2-time-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+.cd2-summary { margin: 0; font-size: 15px; font-weight: 700; color: #1e293b; }
+.cd2-error { margin: 0; font-size: 15px; font-weight: 700; color: #b91c1c; background: #fef2f2; border: 2px solid #ef4444; border-radius: 10px; padding: 10px 14px; }
+.cd2-btn-primary { align-self: flex-start; padding: 0 20px; height: 50px; font-size: 16px; font-weight: 800; background: #4361ee; color: #ffffff; border: 2.5px solid #111827; border-radius: 12px; box-shadow: 4px 4px 0 #111827; cursor: pointer; }
+.cd2-btn-primary:active { box-shadow: 1px 1px 0 #111827; transform: translate(3px, 3px); }
+.cd2-note { margin: 0; font-size: 14px; line-height: 1.55; color: #475569; }
+.cd2-list { margin-top: 22px; display: flex; flex-direction: column; gap: 16px; }
+.cd2-empty { margin: 0; font-size: 15px; color: #475569; text-align: center; padding: 12px 0; }
+.cd2-timer { border: 2.5px solid #111827; border-radius: 12px; box-shadow: 5px 5px 0 #111827; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; background: #06d6a0; }
+.cd2-timer.cd2-paused { background: #ffffff; }
+.cd2-timer.cd2-ended { background: #ef233c; color: #ffffff; animation: cd2blink 1s infinite alternate; }
+.cd2-timer-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+.cd2-timer-label { font-size: 16px; font-weight: 800; text-transform: uppercase; overflow-wrap: anywhere; }
+.cd2-timer-status { font-size: 14px; font-weight: 700; white-space: nowrap; }
+.cd2-timer-time { font-size: 36px; font-weight: 900; line-height: 1.1; font-family: 'Courier New', monospace; }
+.cd2-progress { height: 12px; border: 2px solid #111827; border-radius: 8px; background: rgba(255, 255, 255, 0.55); overflow: hidden; }
+.cd2-progress-fill { height: 100%; background: #111827; width: 0%; }
+.cd2-timer-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.cd2-btn { padding: 0 16px; height: 46px; font-size: 15px; font-weight: 800; background: #ffffff; color: #111827; border: 2.5px solid #111827; border-radius: 10px; box-shadow: 3px 3px 0 #111827; cursor: pointer; }
+.cd2-btn:active { box-shadow: 0 0 0 #111827; transform: translate(3px, 3px); }
+.cd2-btn-dark { background: #111827; color: #ffffff; }
+@keyframes cd2blink { from { box-shadow: 5px 5px 0 #111827; } to { box-shadow: 5px 5px 0 #111827, 0 0 16px #111827; } }
+@media (max-width: 600px) {
+    .cd2-wrapper { padding: 16px; }
+    .cd2-card { padding: 16px; }
+    .cd2-chip { flex-basis: calc(33.333% - 8px); min-width: 0; }
+    .cd2-timer-time { font-size: 30px; }
+    .cd2-wrapper .cd2-input { font-size: 16px !important; }
+    .cd2-btn-primary { align-self: stretch; }
+    .cd2-timer-top { flex-direction: column; }
+}
+.cd2-wrapper { overflow-x: clip; }
