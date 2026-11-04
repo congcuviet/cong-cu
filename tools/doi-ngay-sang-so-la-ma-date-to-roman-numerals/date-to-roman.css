@@ -1,0 +1,25 @@
+.drn-soft-wrapper{--drn-border:#1e293b;max-width:900px;margin:0 auto;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1e293b;box-sizing:border-box}
+.drn-soft-wrapper *{box-sizing:border-box}
+.drn-card{background:#fff;border:2.5px solid var(--drn-border);border-radius:20px;padding:20px;box-shadow:4px 4px 0 var(--drn-border);margin-bottom:16px}
+.drn-card-title{margin:0 0 6px;font-size:18px;font-weight:900}
+.drn-label{display:block;font-weight:800;font-size:14px;margin:13px 0 6px}
+.drn-inp{width:100%;border:2px solid var(--drn-border);border-radius:12px;padding:10px 12px;font-size:15.5px;font-weight:700;background:#fffef5}
+.drn-hero{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:2.5px solid var(--drn-border);border-radius:16px;padding:15px;box-shadow:3px 3px 0 var(--drn-border);margin-top:16px;text-align:center}
+.drn-hero-cap{display:block;font-size:12.5px;font-weight:800;color:#92400e}
+.drn-hero-val{display:block;font-size:30px;font-weight:900;letter-spacing:1px;margin-top:3px;word-break:break-all;font-variant-numeric:tabular-nums}
+.drn-hero-sub{display:block;font-size:14px;font-weight:700;color:#64748b;margin-top:3px}
+.drn-parts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+.drn-part{background:#fff;border:2px solid var(--drn-border);border-radius:14px;padding:10px 12px;box-shadow:3px 3px 0 var(--drn-border);text-align:center}
+.drn-part-cap{display:block;font-size:12.5px;font-weight:800;color:#64748b}
+.drn-part-val{display:block;font-size:19px;font-weight:900;margin-top:2px;word-break:break-all}
+.drn-format{display:flex;align-items:center;gap:10px;border:2px solid var(--drn-border);border-radius:13px;padding:9px 12px;margin-bottom:8px;background:#fffef5;box-shadow:2px 2px 0 var(--drn-border);cursor:pointer;width:100%;text-align:left}
+.drn-format-name{font-weight:800;font-size:13.5px;min-width:180px}
+.drn-format-val{font-weight:900;font-size:15px;flex:1;word-break:break-all}
+.drn-format-copy{font-size:13px;font-weight:900;color:#b45309;white-space:nowrap}
+.drn-note{font-size:13.5px;color:#64748b;line-height:1.55;margin:10px 0 0}
+@media (max-width:700px){.drn-parts{grid-template-columns:1fr 1fr}.drn-format-name{min-width:130px}}
+
+/* — Mobile guard 2026-10-24: chống tràn ngang (grid/flex blowout) và chống zoom khi chạm ô nhập — */
+.drn-soft-wrapper{overflow-x:clip}
+.drn-soft-wrapper *{min-width:0}
+.drn-soft-wrapper input,.drn-soft-wrapper select,.drn-soft-wrapper textarea{font-size:16px !important;max-width:100%}
