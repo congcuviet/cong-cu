@@ -1,0 +1,170 @@
+.ttv-soft-wrapper {
+  --ttv-border: #263238;
+  --ttv-shadow: 4px 4px 0 rgba(38, 50, 56, .9);
+  --ttv-blue: #e8f1fd;
+  --ttv-accent: #ffd43b;
+  --ttv-cream: #fbfcfe;
+  --ttv-ink: #24313a;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--ttv-ink);
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ttv-soft-wrapper * { box-sizing: border-box; }
+.ttv-card {
+  background: #fff;
+  border: 2px solid var(--ttv-border);
+  border-radius: 20px;
+  box-shadow: var(--ttv-shadow);
+  padding: 22px;
+}
+.ttv-controls { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; }
+.ttv-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ttv-group-label { font-weight: 800; font-size: 13.5px; text-transform: uppercase; letter-spacing: .3px; opacity: .75; }
+.ttv-chip {
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 800;
+  border: 2px solid var(--ttv-border);
+  border-radius: 999px;
+  background: var(--ttv-cream);
+  color: var(--ttv-ink);
+  cursor: pointer;
+  box-shadow: 2px 2px 0 rgba(38, 50, 56, .9);
+}
+.ttv-chip:active { transform: translate(1px, 1px); box-shadow: 1px 1px 0 rgba(38, 50, 56, .9); }
+.ttv-chip-active { background: var(--ttv-accent); }
+.ttv-chip-new { background: var(--ttv-blue); margin-left: auto; }
+.ttv-best { margin: 14px 0 0; font-weight: 700; font-size: 14.5px; }
+.ttv-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 16px;
+}
+.ttv-stat {
+  border: 2px solid var(--ttv-border);
+  border-radius: 14px;
+  background: var(--ttv-cream);
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+}
+.ttv-stat-label { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .3px; opacity: .7; }
+.ttv-stat-value { font-size: 24px; font-weight: 900; font-variant-numeric: tabular-nums; }
+.ttv-display {
+  position: relative;
+  margin-top: 16px;
+  border: 2px solid var(--ttv-border);
+  border-radius: 16px;
+  background: var(--ttv-blue);
+  height: 124px;
+  overflow: hidden;
+  cursor: text;
+}
+.ttv-text-inner {
+  padding: 16px 18px;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: .2px;
+  transition: transform .18s ease;
+  user-select: none;
+}
+.ttv-ch { color: #7d8fa1; border-radius: 4px; white-space: pre-wrap; }
+.ttv-ch.ttv-ok { color: #1e7d32; }
+.ttv-ch.ttv-bad { color: #c62828; background: #ffcdd2; }
+.ttv-ch.ttv-current { background: var(--ttv-accent); color: var(--ttv-ink); box-shadow: 0 0 0 1.5px var(--ttv-border); }
+.ttv-input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border: none;
+  resize: none;
+  font-size: 20px;
+  cursor: text;
+}
+.ttv-hint { margin: 12px 0 0; font-size: 13.5px; line-height: 1.55; color: #5c7183; }
+.ttv-btn-finish {
+  margin-top: 12px;
+  padding: 11px 20px;
+  font-size: 15px;
+  font-weight: 800;
+  border: 2px solid var(--ttv-border);
+  border-radius: 12px;
+  background: #ffcdd2;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 rgba(38, 50, 56, .9);
+}
+.ttv-btn-finish:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 rgba(38, 50, 56, .9); }
+.ttv-result {
+  margin-top: 18px;
+  border: 2px solid var(--ttv-border);
+  border-radius: 16px;
+  background: #fff8db;
+  padding: 18px;
+  text-align: center;
+}
+.ttv-res-main { display: flex; flex-direction: column; gap: 2px; align-items: center; }
+.ttv-res-wpm { font-size: 46px; font-weight: 900; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.ttv-res-wpm small { font-size: 18px; font-weight: 800; }
+.ttv-res-rank { font-size: 18px; font-weight: 800; }
+.ttv-res-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+.ttv-res-chip {
+  border: 2px solid var(--ttv-border);
+  border-radius: 12px;
+  background: #fff;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 13.5px;
+  font-weight: 700;
+}
+.ttv-res-chip strong { font-size: 19px; font-variant-numeric: tabular-nums; }
+.ttv-btn-again {
+  margin-top: 16px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 900;
+  border: 2px solid var(--ttv-border);
+  border-radius: 12px;
+  background: var(--ttv-accent);
+  cursor: pointer;
+  box-shadow: 3px 3px 0 rgba(38, 50, 56, .9);
+}
+.ttv-btn-again:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 rgba(38, 50, 56, .9); }
+
+.ttv-accordion {
+  border: 2px solid var(--ttv-border);
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: var(--ttv-shadow);
+  padding: 4px 22px;
+}
+.ttv-accordion summary { cursor: pointer; font-weight: 800; font-size: 15.5px; padding: 12px 0; }
+.ttv-acc-body { padding-bottom: 14px; line-height: 1.65; font-size: 15px; }
+.ttv-acc-body p { margin: 0 0 10px; }
+
+@media (max-width: 640px) {
+  .ttv-card { padding: 16px; }
+  .ttv-text-inner { font-size: 18px; }
+  .ttv-chip-new { margin-left: 0; }
+  .ttv-stat-value { font-size: 20px; }
+}
+
+/* — Mobile guard 2026-10-24: chống tràn ngang (grid/flex blowout) và chống zoom khi chạm ô nhập — */
+.ttv-soft-wrapper{overflow-x:clip}
+.ttv-soft-wrapper *{min-width:0}
+.ttv-soft-wrapper input,.ttv-soft-wrapper select,.ttv-soft-wrapper textarea{font-size:16px !important;max-width:100%}
