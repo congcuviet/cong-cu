@@ -1,0 +1,41 @@
+.vr2-soft-wrapper { overflow-x: clip; max-width: 760px; margin: 25px auto; font-family: system-ui, -apple-system, sans-serif; color: #1a1a1a; background: #fffbf0; padding: 22px; border: 3px solid #1a1a1a; border-radius: 16px; box-shadow: 6px 6px 0 #1a1a1a; font-size: 16px; }
+.vr2-soft-wrapper * { box-sizing: border-box; min-width: 0; }
+.vr2-soft-wrapper [hidden] { display: none !important; }
+.vr2-soft-wrapper input, .vr2-soft-wrapper select, .vr2-soft-wrapper textarea { font-size: 16px !important; max-width: 100%; }
+.vr2-card { background: #ffffff; border: 2.5px solid #1a1a1a; border-radius: 12px; box-shadow: 4px 4px 0 #1a1a1a; padding: 18px 20px; margin-bottom: 18px; }
+.vr2-card:last-child { margin-bottom: 0; }
+.vr2-result { background: #fdf0d5; }
+.vr2-status-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.vr2-status { font-size: 15px; font-weight: 800; color: #1e293b; background: #fdf0d5; border: 2px solid #1a1a1a; border-radius: 50px; padding: 6px 14px; }
+.vr2-status.is-rec { color: #d90429; background: #fff0f3; }
+.vr2-timer { font-size: 36px; font-weight: 900; font-family: 'Courier New', monospace; color: #1a1a1a; line-height: 1.1; }
+.vr2-wave { width: 100%; height: 120px; display: block; background: #f8fafc; border: 2.5px solid #1a1a1a; border-radius: 12px; box-shadow: 3px 3px 0 #1a1a1a; margin-bottom: 12px; }
+.vr2-note { font-size: 14px; line-height: 1.55; color: #475569; margin: 12px 0 0 0; }
+.vr2-controls { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+.vr2-btn { padding: 13px 20px; font-size: 15px; font-weight: 800; background: #ffffff; border: 2.5px solid #1a1a1a; border-radius: 10px; cursor: pointer; box-shadow: 3px 3px 0 #1a1a1a; height: 50px; }
+.vr2-btn:active:not(:disabled) { transform: translate(2px, 2px); box-shadow: 1px 1px 0 #1a1a1a; }
+.vr2-btn:disabled { opacity: 0.55; cursor: not-allowed; box-shadow: none; }
+.vr2-btn-primary { background: #a2d2ff; }
+.vr2-btn-danger { background: #ffafcc; }
+.vr2-btn-ghost { background: #f1f3f5; }
+.vr2-error { font-size: 15px; font-weight: 700; color: #b91c1c; margin: 12px 0 0 0; line-height: 1.55; }
+.vr2-details { margin-top: 16px; font-size: 15px; font-weight: 700; }
+.vr2-details summary { cursor: pointer; }
+.vr2-label { font-weight: 800; font-size: 15px; color: #1e293b; margin: 14px 0 8px 0; display: block; }
+.vr2-input { font-size: 17px !important; font-weight: 600; padding: 12px; border: 2.5px solid #1a1a1a; border-radius: 8px; width: 100%; height: 50px; background: #ffffff; color: #0f172a; }
+.vr2-check { display: flex; gap: 8px; align-items: center; margin-top: 10px; font-size: 15px; font-weight: 700; }
+.vr2-check input { width: 20px; height: 20px; accent-color: #1a1a1a; flex: none; }
+.vr2-player { width: 100%; height: 45px; border-radius: 50px; }
+.vr2-meta { font-size: 15px; font-weight: 700; color: #334155; margin: 10px 0 0 0; }
+.vr2-seg { display: flex; gap: 10px; flex-wrap: wrap; }
+.vr2-seg-btn { flex: 1; min-width: 120px; padding: 13px 10px; font-size: 15px; font-weight: 800; background: #ffffff; border: 2.5px solid #1a1a1a; border-radius: 10px; cursor: pointer; box-shadow: 3px 3px 0 #1a1a1a; height: 50px; }
+.vr2-seg-btn.is-active { background: #1a1a1a; color: #ffffff; }
+.vr2-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
+@media (max-width: 600px) {
+  .vr2-soft-wrapper { padding: 14px; }
+  .vr2-card { padding: 14px; }
+  .vr2-input { font-size: 16px !important; }
+  .vr2-timer { font-size: 30px; }
+  .vr2-btn, .vr2-seg-btn { flex-basis: calc(50% - 5px); min-width: 0; }
+  .vr2-btn-primary { flex-basis: 100%; }
+}
