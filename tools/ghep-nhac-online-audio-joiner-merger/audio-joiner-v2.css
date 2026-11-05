@@ -1,0 +1,61 @@
+.aj2-soft-wrapper { overflow-x: clip; max-width: 920px; margin: 25px auto; font-family: system-ui, -apple-system, sans-serif; color: #111; background: #eaf4f0; padding: 22px; border: 3px solid #111; border-radius: 16px; box-shadow: 6px 6px 0 #111; font-size: 16px; }
+.aj2-soft-wrapper * { box-sizing: border-box; min-width: 0; }
+.aj2-soft-wrapper [hidden] { display: none !important; }
+.aj2-card { background: #fff; border: 2.5px solid #111; border-radius: 12px; box-shadow: 4px 4px 0 #111; padding: 18px 20px; margin-bottom: 18px; }
+.aj2-label { font-weight: 800; font-size: 15px; color: #1e293b; margin-bottom: 10px; display: block; }
+.aj2-upload-box { background: #2a9d8f; border: 2px dashed #111; border-radius: 12px; padding: 22px 18px; text-align: center; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 8px; color: #fff; box-shadow: 4px 4px 0 #111; }
+.aj2-upload-box.dragover { filter: brightness(0.95); transform: translateY(-2px); }
+.aj2-icon { font-size: 2.3rem; line-height: 1; }
+.aj2-filename { font-weight: 800; font-size: 16px; word-break: break-all; }
+.aj2-hint { font-size: 14px; font-weight: 700; opacity: 0.95; line-height: 1.55; }
+.aj2-sr-only { position: absolute; width: 1px; height: 1px; opacity: 0; overflow: hidden; }
+.aj2-note { font-size: 14px; line-height: 1.55; color: #475569; margin: 12px 0 0 0; }
+.aj2-track-list { display: flex; flex-direction: column; gap: 10px; }
+.aj2-track { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 10px 12px; background: #fff; border: 2px solid #111; border-radius: 8px; box-shadow: 2px 2px 0 #111; }
+.aj2-track.drag-over { outline: 3px dashed #2a9d8f; outline-offset: 2px; }
+.aj2-grip { cursor: grab; font-weight: 900; color: #475569; letter-spacing: 1px; }
+.aj2-idx { background: #264653; color: #fff; font-weight: 900; width: 26px; height: 26px; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; font-size: 13px; flex: none; }
+.aj2-tinfo { flex: 1; display: flex; flex-direction: column; gap: 2px; overflow: hidden; }
+.aj2-tname { font-weight: 700; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.aj2-tmeta { font-size: 14px; color: #475569; }
+.aj2-tactions { display: flex; gap: 6px; flex: none; }
+.aj2-mini { width: 38px; height: 38px; background: #f1f3f5; border: 2px solid #111; border-radius: 8px; font-size: 15px; font-weight: 800; cursor: pointer; box-shadow: 2px 2px 0 #111; padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+.aj2-mini:disabled { opacity: 0.4; cursor: not-allowed; }
+.aj2-mini.aj2-del:hover { background: #e76f51; color: #fff; }
+.aj2-trim { flex-basis: 100%; display: flex; gap: 12px; flex-wrap: wrap; align-items: end; border-top: 2px dashed #e2e8f0; padding-top: 10px; }
+.aj2-trim label { font-size: 14px; font-weight: 800; color: #1e293b; display: flex; flex-direction: column; gap: 4px; }
+.aj2-trim input { font-size: 17px !important; font-weight: 600; padding: 12px; border: 2px solid #111; border-radius: 8px; width: 130px; max-width: 100%; }
+.aj2-trim input.is-bad { border-color: #e76f51; outline: 2px solid #e76f51; }
+.aj2-trim-note { font-size: 14px; color: #475569; }
+.aj2-row { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-top: 14px; }
+.aj2-total { font-size: 15px; font-weight: 800; color: #264653; }
+.aj2-seg { display: flex; gap: 10px; flex-wrap: wrap; }
+.aj2-seg-btn { flex: 1; min-width: 110px; padding: 13px 10px; font-size: 15px; font-weight: 800; background: #fff; border: 2.5px solid #111; border-radius: 10px; cursor: pointer; box-shadow: 3px 3px 0 #111; }
+.aj2-seg-btn.is-active { background: #264653; color: #fff; }
+.aj2-join-seconds { margin-top: 16px; }
+.aj2-join-seconds input[type="range"] { width: 100%; accent-color: #264653; }
+.aj2-seconds-val { font-size: 17px; font-weight: 800; color: #264653; }
+.aj2-caption { font-size: 14px; color: #475569; margin: 4px 0 0 0; }
+.aj2-details { margin-top: 16px; font-size: 15px; font-weight: 700; }
+.aj2-details summary { cursor: pointer; }
+.aj2-check { display: flex; gap: 8px; align-items: center; margin-top: 10px; font-size: 15px; font-weight: 700; }
+.aj2-check input { width: 20px; height: 20px; accent-color: #264653; }
+.aj2-error { font-size: 15px; font-weight: 700; color: #b91c1c; margin: 12px 0 0 0; }
+.aj2-btn { padding: 13px 20px; font-size: 15px; font-weight: 800; background: #fff; border: 2.5px solid #111; border-radius: 10px; cursor: pointer; box-shadow: 3px 3px 0 #111; height: 48px; }
+.aj2-btn:active:not(:disabled) { transform: translate(2px, 2px); box-shadow: 1px 1px 0 #111; }
+.aj2-btn:disabled { opacity: 0.55; cursor: not-allowed; }
+.aj2-btn-primary { background: #f4a261; margin-top: 16px; }
+.aj2-result { background: #fdfd96; }
+.aj2-hero { font-size: 36px; font-weight: 900; color: #264653; line-height: 1.2; }
+.aj2-sub { font-size: 15px; font-weight: 700; color: #334155; margin: 6px 0 0 0; }
+.aj2-result .aj2-row { justify-content: flex-start; }
+.aj2-result .aj2-btn-primary { margin-top: 0; }
+@media (max-width: 600px) {
+  .aj2-soft-wrapper { padding: 14px; }
+  .aj2-card { padding: 14px; }
+  .aj2-trim input { font-size: 16px !important; }
+  .aj2-seg-btn { flex-basis: calc(33.333% - 7px); min-width: 0; }
+  .aj2-hero { font-size: 30px; }
+  .aj2-btn { width: 100%; }
+  .aj2-result .aj2-btn { width: auto; flex: 1; }
+}
