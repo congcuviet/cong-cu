@@ -132,6 +132,16 @@ Mỗi công cụ nằm trong một thư mục riêng tại `tools/<slug>/`, gồ
 | Đồng Hồ Đếm Ngược | [Mở công cụ](https://congcuviet.com/cong-cu/dong-ho-dem-nguoc/) |
 | Đồng Hồ Pomodoro Online | [Mở công cụ](https://congcuviet.com/cong-cu/dong-ho-pomodoro-online/) |
 | Dự Đoán Chiều Cao Trẻ Em Trưởng Thành – Child Height Predictor | [Mở công cụ](https://congcuviet.com/cong-cu/du-doan-chieu-cao-tre-em-truong-thanh-child-height-predictor/) |
+| Dự Đoán Nhóm Máu Di Truyền | [Mở công cụ](https://congcuviet.com/cong-cu/du-doan-nhom-mau-di-truyen/) |
+| Escape/Unescape ký tự HTML – Escape HTML entities | [Mở công cụ](https://congcuviet.com/cong-cu/escape-unescape-ky-tu-html-escape-html-entities/) |
+| Ghép nhạc Online – Audio Joiner / Merger | [Mở công cụ](https://congcuviet.com/cong-cu/ghep-nhac-online-audio-joiner-merger/) |
+| Ghép nhạc vào Video – Add Audio to Video | [Mở công cụ](https://congcuviet.com/cong-cu/ghep-nhac-vao-video-add-audio-to-video/) |
+| Ghi âm Trực tuyến – Voice Recorder | [Mở công cụ](https://congcuviet.com/cong-cu/ghi-am-truc-tuyen-voice-recorder/) |
+| Hỗ trợ viết bài chuẩn SEO | [Mở công cụ](https://congcuviet.com/cong-cu/ho-tro-viet-bai-chuan-seo/) |
+| Kiểm Tra Phạt Nguội | [Mở công cụ](https://congcuviet.com/cong-cu/kiem-tra-phat-nguoi/) |
+| Kiểm Tra Thứ Hạng Từ Khoá – Hỗ Trợ SEO | [Mở công cụ](https://congcuviet.com/cong-cu/kiem-tra-thu-hang-tu-khoa-ho-tro-seo/) |
+| Kiểm tra tốc độ gõ phím tiếng Việt (Typing Test) | [Mở công cụ](https://congcuviet.com/cong-cu/kiem-tra-toc-do-go-phim-tieng-viet/) |
+| Kiểm tra và phân tích mã IBAN – IBAN validator and parser | [Mở công cụ](https://congcuviet.com/cong-cu/kiem-tra-va-phan-tich-ma-iban-iban-validator-and-parser/) |
 Danh sách sẽ tiếp tục được bổ sung theo từng đợt.
 
 ## Theo dõi Công Cụ Việt
