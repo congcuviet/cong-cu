@@ -1,0 +1,156 @@
+.ue3-soft-wrapper {
+  --ue3-border: 3px solid #111111;
+  --ue3-shadow: 5px 5px 0px #111111;
+  --ue3-yellow: #fde74c;
+  --ue3-cyan: #00f5d4;
+  --ue3-green: #06d6a0;
+  --ue3-red: #ff006e;
+  max-width: 920px;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #111111;
+  background: #fdf6d8;
+  padding: 20px;
+  border: var(--ue3-border);
+  border-radius: 16px;
+  box-shadow: 6px 6px 0px #111111;
+}
+.ue3-soft-wrapper * { box-sizing: border-box; min-width: 0; }
+.ue3-soft-wrapper [hidden] { display: none !important; }
+.ue3-soft-wrapper input, .ue3-soft-wrapper select, .ue3-soft-wrapper textarea { font-size: 16px !important; max-width: 100%; }
+.ue3-soft-wrapper { overflow-x: clip; }
+
+.ue3-seg { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+.ue3-seg-btn {
+  flex: 1; min-width: 110px; padding: 13px 10px; cursor: pointer;
+  border: var(--ue3-border); border-radius: 10px; background: #ffffff;
+  box-shadow: 3px 3px 0px #111111; font-size: 15px; font-weight: 800;
+  color: #1e293b; text-transform: uppercase; transition: transform 0.1s;
+}
+.ue3-seg-btn:active { transform: translate(3px, 3px); box-shadow: 0px 0px 0px #111111; }
+.ue3-seg-btn.is-active { background: var(--ue3-yellow); color: #111111; box-shadow: inset 3px 3px 0px rgba(0,0,0,0.12); }
+.ue3-seg-scope .ue3-seg-btn.is-active { background: var(--ue3-cyan); }
+.ue3-seg-scope { margin-bottom: 0; margin-top: 12px; }
+.ue3-seg-scope .ue3-seg-btn { text-transform: none; font-size: 15px; }
+
+.ue3-card {
+  padding: 20px; border: var(--ue3-border); border-radius: 12px;
+  background: #ffffff; box-shadow: var(--ue3-shadow);
+  display: flex; flex-direction: column; gap: 12px;
+}
+.ue3-card-input { background: #fffbe6; }
+.ue3-card-output { background: #e6fff9; margin-top: 16px; }
+.ue3-flex-between { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.ue3-label { font-size: 15px; font-weight: 800; color: #1e293b; }
+.ue3-label-scope { margin-top: 4px; }
+.ue3-hint { margin: 0; font-size: 14px; font-weight: 600; line-height: 1.55; color: #475569; }
+
+.ue3-soft-wrapper .ue3-textarea {
+  width: 100%; min-height: 110px; padding: 13px 14px;
+  border: 3px solid #111111; border-radius: 8px; outline: none;
+  font-size: 17px !important; font-weight: 600; color: #0f172a; line-height: 1.5;
+  font-family: ui-monospace, monospace; resize: vertical; background: #ffffff;
+  box-shadow: inset 3px 3px 0px rgba(0,0,0,0.05);
+}
+.ue3-soft-wrapper .ue3-textarea:focus { box-shadow: inset 3px 3px 0px rgba(0,0,0,0.05), 0 0 0 3px #0284c7; }
+.ue3-textarea-output { background: #fdfdfd; word-break: break-all; }
+
+.ue3-chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.ue3-chip {
+  padding: 8px 12px; cursor: pointer; border: 2px solid #111111; border-radius: 20px;
+  background: #ffffff; box-shadow: 2px 2px 0px #111111;
+  font-size: 14px; font-weight: 700; color: #1e293b; font-family: ui-monospace, monospace;
+}
+.ue3-chip:active { transform: translate(2px, 2px); box-shadow: 0px 0px 0px #111111; }
+
+.ue3-swap-zone { display: flex; justify-content: center; padding: 14px 0 0 0; }
+.ue3-btn-swap {
+  width: 38px; height: 38px; border-radius: 50%; cursor: pointer;
+  background: #111111; color: var(--ue3-yellow); border: 2.5px solid #111111;
+  box-shadow: 2px 2px 0px #111111; font-size: 18px; font-weight: 800;
+  display: inline-flex; align-items: center; justify-content: center;
+  line-height: 1; padding: 0; transition: transform 0.15s;
+}
+.ue3-btn-swap:active { transform: rotate(180deg) scale(0.9); box-shadow: 0px 0px 0px #111111; }
+
+.ue3-badge {
+  background: #eeeeee; padding: 5px 12px; border: 2px solid #111111;
+  border-radius: 6px; font-weight: 800; font-size: 14px;
+  box-shadow: 2px 2px 0px #111111; white-space: nowrap;
+}
+.ue3-badge.active { background: var(--ue3-green); color: #111111; }
+.ue3-badge.error { background: var(--ue3-red); color: #ffffff; }
+
+.ue3-stats { margin: 0; font-size: 15px; font-weight: 600; line-height: 1.55; color: #475569; }
+.ue3-error {
+  margin: 0; padding: 12px 14px; border: 2.5px solid #111111; border-radius: 8px;
+  background: #fff1f2; color: #881337; font-size: 15px; font-weight: 700; line-height: 1.55;
+  box-shadow: 3px 3px 0px #111111;
+}
+.ue3-warn {
+  margin: 0; padding: 12px 14px; border: 2.5px solid #111111; border-radius: 8px;
+  background: #fef3c7; color: #92400e; font-size: 15px; font-weight: 700; line-height: 1.55;
+  box-shadow: 3px 3px 0px #111111;
+}
+
+.ue3-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.ue3-btn-main {
+  padding: 14px 20px; background: #111111; color: var(--ue3-cyan);
+  border: 2px solid #111111; border-radius: 8px; font-size: 15px; font-weight: 800;
+  cursor: pointer; box-shadow: 4px 4px 0px #111111; min-height: 48px;
+  text-transform: uppercase; transition: transform 0.1s;
+}
+.ue3-btn-main:active { transform: translate(4px, 4px); box-shadow: 0px 0px 0px #111111; }
+.ue3-btn-main:disabled, .ue3-btn-ghost:disabled { opacity: 0.45; cursor: not-allowed; }
+.ue3-btn-ghost {
+  padding: 14px 18px; background: #ffffff; color: #111111;
+  border: 2px solid #111111; border-radius: 8px; font-size: 15px; font-weight: 800;
+  cursor: pointer; box-shadow: 3px 3px 0px #111111; min-height: 48px; transition: transform 0.1s;
+}
+.ue3-btn-ghost:active { transform: translate(3px, 3px); box-shadow: 0px 0px 0px #111111; }
+.ue3-btn-small {
+  padding: 8px 12px; background: #ffffff; border: 2px solid #111111; border-radius: 6px;
+  font-weight: 800; font-size: 14px; cursor: pointer; color: #111111;
+  box-shadow: 2px 2px 0px #111111; transition: transform 0.1s; min-height: 38px;
+}
+.ue3-btn-small:active { transform: translate(2px, 2px); box-shadow: 0px 0px 0px #111111; }
+.ue3-toast {
+  margin: 0; padding: 10px 14px; border: 2px solid #111111; border-radius: 8px;
+  background: #ecfdf5; color: #065f46; font-size: 15px; font-weight: 700;
+  box-shadow: 3px 3px 0px #111111; text-align: center;
+}
+
+.ue3-details {
+  margin-top: 16px; padding: 16px 18px; border: 2.5px solid #111111; border-radius: 12px;
+  background: #ffffff; box-shadow: 4px 4px 0px #111111;
+}
+.ue3-details summary { cursor: pointer; font-size: 15px; font-weight: 800; color: #1e293b; }
+.ue3-table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+.ue3-table th, .ue3-table td {
+  border: 2px solid #111111; padding: 8px 10px; text-align: left; font-weight: 600; color: #0f172a;
+}
+.ue3-table th { background: var(--ue3-yellow); font-weight: 800; }
+.ue3-table code { font-family: ui-monospace, monospace; font-weight: 700; }
+.ue3-details .ue3-hint { margin-top: 10px; }
+
+.ue3-note {
+  margin-top: 16px; padding: 15px 18px; border: 2px dashed #111111; border-radius: 8px;
+  background: rgba(255,255,255,0.6);
+}
+.ue3-note h4 { margin: 0 0 5px 0; font-weight: 800; color: #111111; font-size: 15px; }
+.ue3-note p { margin: 0; font-size: 14px; font-weight: 600; line-height: 1.55; color: #333333; }
+.ue3-note code { background: #ffffff; border: 1px solid #111111; padding: 2px 5px; border-radius: 4px; font-weight: 700; }
+
+@media (max-width: 600px) {
+  .ue3-soft-wrapper { padding: 16px; }
+  .ue3-card { padding: 16px; }
+  .ue3-seg-btn { flex-basis: calc(50% - 5px); min-width: 0; }
+  .ue3-seg-scope .ue3-seg-btn { font-size: 14px; }
+  .ue3-label { font-size: 14.5px; }
+  .ue3-soft-wrapper .ue3-textarea { font-size: 16px !important; min-height: 100px; }
+  .ue3-hint, .ue3-note p { font-size: 13.5px; }
+  .ue3-stats, .ue3-error, .ue3-warn { font-size: 14px; }
+  .ue3-actions .ue3-btn-main, .ue3-actions .ue3-btn-ghost { flex: 1 1 calc(50% - 5px); }
+  .ue3-table { font-size: 13.5px; }
+  .ue3-table th, .ue3-table td { padding: 6px 8px; }
+}
