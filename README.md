@@ -142,6 +142,16 @@ Mỗi công cụ nằm trong một thư mục riêng tại `tools/<slug>/`, gồ
 | Kiểm Tra Thứ Hạng Từ Khoá – Hỗ Trợ SEO | [Mở công cụ](https://congcuviet.com/cong-cu/kiem-tra-thu-hang-tu-khoa-ho-tro-seo/) |
 | Kiểm tra tốc độ gõ phím tiếng Việt (Typing Test) | [Mở công cụ](https://congcuviet.com/cong-cu/kiem-tra-toc-do-go-phim-tieng-viet/) |
 | Kiểm tra và phân tích mã IBAN – IBAN validator and parser | [Mở công cụ](https://congcuviet.com/cong-cu/kiem-tra-va-phan-tich-ma-iban-iban-validator-and-parser/) |
+| Làm đẹp và Định dạng JSON (JSON Formatter & Prettify) | [Mở công cụ](https://congcuviet.com/cong-cu/lam-dep-va-dinh-dang-json-json-formatter-prettify/) |
+| Làm đẹp và Định dạng SQL (SQL Formatter & Prettify) | [Mở công cụ](https://congcuviet.com/cong-cu/lam-dep-va-dinh-dang-sql-sql-formatter-prettify/) |
+| Làm đẹp và Định dạng XML (XML Formatter & Prettify) | [Mở công cụ](https://congcuviet.com/cong-cu/lam-dep-va-dinh-dang-xml-xml-formatter-prettify/) |
+| Làm đẹp và Định dạng YAML (YAML Formatter & Prettify) | [Mở công cụ](https://congcuviet.com/cong-cu/lam-dep-va-dinh-dang-yaml-yaml-formatter-prettify/) |
+| Lặp lại Video – Video Looper | [Mở công cụ](https://congcuviet.com/cong-cu/lap-lai-video-video-looper/) |
+| Mã hóa/Giải mã chuỗi Base64 – Base64 string encoder/decoder | [Mở công cụ](https://congcuviet.com/cong-cu/ma-hoa-giai-ma-chuoi-base64-base64-string-encoder-decoder/) |
+| Mã hóa/Giải mã chuỗi URL – Encode/decode URL-formatted strings | [Mở công cụ](https://congcuviet.com/cong-cu/ma-hoa-giai-ma-chuoi-url-encode-decode-url-formatted-strings/) |
+| Mã hóa/Giải mã văn bản – Encrypt / decrypt text | [Mở công cụ](https://congcuviet.com/cong-cu/ma-hoa-giai-ma-van-ban-encrypt-decrypt-text/) |
+| Màu Sắc Chất Hoá Học Phổ Biến | [Mở công cụ](https://congcuviet.com/cong-cu/mau-sac-chat-hoa-hoc-pho-bien/) |
+| Máy ghi hình/Quay video – Camera recorder | [Mở công cụ](https://congcuviet.com/cong-cu/may-ghi-hinh-quay-video-camera-recorder/) |
 Danh sách sẽ tiếp tục được bổ sung theo từng đợt.
 
 ## Theo dõi Công Cụ Việt
